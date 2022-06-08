@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const productoModel = mongoose.Schema({
+const juegos3dModel = mongoose.Schema({
     nombre: {
         type: String,
         required: true

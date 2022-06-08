@@ -2,14 +2,14 @@
 const express = require("express");
 const mongoose = require("mongoose");
 const usuarios = require("./routes/usuarios");
-const productos = require("./routes/productos");
+const juegos3d = require("./routes/juegos3d");
 require("dotenv").config();
 
 //Inicializando variables
 const app = express();
 const port = 9000;
 
-//Configuraciones
+//Configuraciones|
 app.use(express.json());
 app.use("/api", usuarios);
 
