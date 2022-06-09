@@ -7,7 +7,7 @@ require("dotenv").config();
 
 //Inicializando variables
 const app = express();
-const port = 9000;
+const port = 4567;
 
 //Configuraciones|
 app.use(express.json());
